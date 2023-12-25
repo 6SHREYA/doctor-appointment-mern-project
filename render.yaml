@@ -1,0 +1,6 @@
+services:
+  - name: doctor appointment
+    type: web
+    buildCommand: yarn install && yarn build
+    startCommand: yarn start
+    nodeVersion: 16
